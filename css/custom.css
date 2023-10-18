@@ -1613,14 +1613,15 @@ header .navbar.sticky-header{
 	}
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 768px){
 	.about-content ul li{
 		width: 100%;
 		float: none;
 	}
 	
 	.banner{
-		padding: 160px 0 60px;
+		background-size: 100% auto;
+        padding: 120px 0;
 	}
 	
 	.banner-content h2{
@@ -1735,4 +1736,10 @@ header .navbar.sticky-header{
 	.testimonial-pagination{
 		margin-top: 0;
 	}
+}
+
+@media (max-width: 480px) {
+    .banner {
+        padding: 80px 0;
+    }
 }
