@@ -1613,15 +1613,14 @@ header .navbar.sticky-header{
 	}
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
 	.about-content ul li{
 		width: 100%;
 		float: none;
 	}
 	
 	.banner{
-		background-size: 100% auto;
-        padding: 120px 0;
+		padding: 160px 0 60px;
 	}
 	
 	.banner-content h2{
